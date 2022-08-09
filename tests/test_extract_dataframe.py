@@ -47,9 +47,10 @@ class TestTweetDfExtractor(unittest.TestCase):
 	"""
 
     def setUp(self) -> pd.DataFrame:
+        
         self.df = TweetDfExtractor(tweet_list[:5])
         # tweet_df = self.df.get_tweet_df()
-        print("Loading data")
+       
     def test_find_statuses_count(self):
         self.assertEqual(
             self.df.find_statuses_count(), [8097,5831,1627,1627,18958]
@@ -90,11 +91,6 @@ class TestTweetDfExtractor(unittest.TestCase):
                          None, None, None, None, None])
 
 
-    # def test_find_hashtags(self):
-    #     self.assertEqual(self.df.find_hashtags(), )
-
-    # def test_find_mentions(self):
-    #     self.assertEqual(self.df.find_mentions(), )
 
 
 if __name__ == "__main__":
