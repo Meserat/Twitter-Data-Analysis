@@ -26,14 +26,20 @@ This folder holds the nooteboks used to process and visualize the data
 
 Data exploration and Preprocessing - holds Data Exploratory features and visualizations
 
-### Data preparation
-
-I extracted it and get two json file data (global_twitter_data.json, and africa_twitter_data.json)
-then I created a git branch “bugfix” to fix the bugs in the fix_clean_tweets_dataframe.py and fix_extract_dataframe.py.
-To fix the bugs in clean_tweets_dataframe.py, we have to carefully consider the data type conversion in pandas dataframe. Furthermore, removing or dropping unimportant rows or columns is the purpose of this challenge
+### data
 
 This folder holds the data of the project
+
+africa_twitter_Data.zip
+global_twitter_data.zip
+Others cleaned data's
 
 ### tests
 
 This folder holds unit test files
+
+## Data preparation
+
+I extracted it and get two json file data (global_twitter_data.json, and africa_twitter_data.json)
+then I created a git branch “bugfix” to fix the bugs in the fix_clean_tweets_dataframe.py and fix_extract_dataframe.py.
+To fix the bugs in clean_tweets_dataframe.py, we have to carefully consider the data type conversion in pandas dataframe. Furthermore, removing or dropping unimportant rows or columns is the purpose of this challenge
