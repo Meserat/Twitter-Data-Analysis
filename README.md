@@ -30,9 +30,11 @@ Data exploration and Preprocessing - holds Data Exploratory features and visuali
 
 This folder holds the data of the project
 
-africa_twitter_Data.zip
-global_twitter_data.zip
-Others cleaned data's
+#### africa_twitter_Data.zip
+
+#### global_twitter_data.zip
+
+#### Others cleaned data's
 
 ### tests
 
