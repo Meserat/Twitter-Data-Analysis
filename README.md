@@ -20,13 +20,13 @@ Data source For this Project was given as sampled twitter data. (can be found in
 
 ## Project Structure
 
-### notebooks
+### Notebooks
 
 This folder holds the nooteboks used to process and visualize the data
 
 Data exploration and Preprocessing - holds Data Exploratory features and visualizations
 
-### data
+### Data
 
 This folder holds the data of the project
 
